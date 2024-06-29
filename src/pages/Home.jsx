@@ -16,7 +16,7 @@ export default function Home(){
     if(posts.length === 0){
         return (
             <div className="w-full py-8 mt-4 text-center">
-                <container>
+                <Container>
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
                             <h1 className="text-wxl font-bold hover:text-gray-500">
@@ -24,7 +24,7 @@ export default function Home(){
                             </h1>
                         </div>
                     </div>
-                </container>
+                </Container>
 
             </div>
         )
@@ -32,7 +32,7 @@ export default function Home(){
 
     return(
         <div className="w-full py-8">
-            <container>
+            <Container>
                 <div className="flex flex-wrap">
                     {posts.map((post) =>{
                         <div key={post.$id} className="p-2 w-1/4">
@@ -41,7 +41,7 @@ export default function Home(){
                         </div>;
                     })}
                 </div>
-            </container>
+            </Container>
 
         </div>
     )
