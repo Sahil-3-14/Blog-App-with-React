@@ -11,9 +11,9 @@ function Signup() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { register, handleSubmit } = useForm();
- 
+
   const create = async (data) => {
-    setError(" "); 
+    setError(" ");
     try {
       const userData = await authService.createAccount(data);
       if (userData) {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from '../Logo'
+import Logo from "../Logo";
 
 export default function Footer() {
   return (
@@ -14,7 +14,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-sm text-gray-600">
-                  &copy; Copyright 2023. All Rights Reserved by DevUI.
+                  &copy; Copyright 2024. All Rights Reserved by Sahil.
                 </p>
               </div>
             </div>
